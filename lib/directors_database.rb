@@ -8,7 +8,7 @@ end
 
 def pretty_print_nds
 pp directors_database
+end
 
 
-def print_first_directors_movie_titles 
-	
+def print_first_directors_movie_titles
