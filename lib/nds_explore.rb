@@ -17,7 +17,7 @@ inner_len = directors_database[row_index][:movies].length
 
 while inner_index < inner_len do
 
-    string = directors_database[0][0][inner_index][:title]
+    string = directors_database[0][:movies][inner_index][:title]
 
     puts string
 
