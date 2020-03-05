@@ -13,7 +13,7 @@ row_index = 0
 column_index = 0
 inner_index = 0
 
-inner_len = directors_database[row_index][column_index].length
+inner_len = directors_database[row_index][:movies].length
 
 while inner_index < inner_len do
 
