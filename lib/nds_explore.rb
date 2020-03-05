@@ -22,7 +22,4 @@ inner_len = directors_database[row_index][column_index].length
 
       inner_index += 1
       end
-
-    end
-
 end
