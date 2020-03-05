@@ -9,5 +9,10 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-
+  row_index = 0
+  new_array = []
+  column_index = 0
+  while column_index < directors_database[row_index] do
+  new_array.push([:schi])
+end 
 end
