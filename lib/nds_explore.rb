@@ -17,6 +17,9 @@ row_index = 0
     column_index = 0
     while column_index < directors_database[[row_index].length do
 
+      string = directors_database[0][0][inner_index][:title]
+      new_array.push()
+
       coord = "#{row_index}, #{column_index}"
       inner_len = vm[row_index][column_index].length
       # Remember \t is a TAB character for indentation
