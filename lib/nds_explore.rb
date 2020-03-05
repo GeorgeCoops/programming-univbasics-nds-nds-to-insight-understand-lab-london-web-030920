@@ -16,7 +16,7 @@ row_index = 0
     row_index = 0
     column_index = 0
     while column_index < directors_database[[row_index].length do
-      
+
       coord = "#{row_index}, #{column_index}"
       inner_len = vm[row_index][column_index].length
       # Remember \t is a TAB character for indentation
