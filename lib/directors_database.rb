@@ -6,4 +6,9 @@ def directors_database
   @_db ||= YAML.load(rot13.call(File.open("directors_db").read.to_s))
 end
 
+def pretty_print_nds
 pp directors_database
+
+
+def print_first_directors_movie_titles 
+	
