@@ -9,13 +9,14 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  inner_index = 0
   new_array = []
-  while inner_index <= directors_database[inner_index].length
 
+row_index = 0
+  while inner_index <= directors_database[inner_index].length
     row_index = 0
     column_index = 0
-    while column_index < vm[row_index].length do
+    while column_index < directors_database[[row_index].length do
+      
       coord = "#{row_index}, #{column_index}"
       inner_len = vm[row_index][column_index].length
       # Remember \t is a TAB character for indentation
@@ -29,8 +30,5 @@ def print_first_directors_movie_titles
 
       column_index += 1
     end
-
-    row_index += 1
-  end
 
 end
