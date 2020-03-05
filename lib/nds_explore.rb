@@ -11,10 +11,10 @@ end
 def print_first_directors_movie_titles
 row_index = 0
 column_index = 0
+inner_index = 0
 
 inner_len = directors_database[row_index][column_index].length
 
-inner_index = 0
 while inner_index < inner_len do
 
     string = directors_database[0][0][inner_index][:title]
