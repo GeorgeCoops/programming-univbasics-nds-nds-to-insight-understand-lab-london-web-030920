@@ -13,6 +13,7 @@ def print_first_directors_movie_titles
   new_array = []
   column_index = 0
   while column_index < directors_database[row_index] do
-  new_array.push([:schi])
+  new_array.push(directors_database[0][0])
 end
+new_array
 end
