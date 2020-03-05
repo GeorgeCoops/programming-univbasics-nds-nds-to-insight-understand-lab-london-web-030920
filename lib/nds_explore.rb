@@ -15,7 +15,7 @@ row_index = 0
   while inner_index <= directors_database[inner_index].length
     row_index = 0
     column_index = 0
-    inner_index
+    inner_index = 0
     inner_len = irectors_database[row_index][column_index].length
     while inner_index < directors_database[[row_index].length do
 
