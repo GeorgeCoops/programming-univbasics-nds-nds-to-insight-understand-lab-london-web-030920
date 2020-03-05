@@ -18,7 +18,7 @@ row_index = 0
     while column_index < directors_database[[row_index].length do
 
       string = directors_database[0][0][inner_index][:title]
-      new_array.push()
+      new_array.push(string)
 
       coord = "#{row_index}, #{column_index}"
       inner_len = vm[row_index][column_index].length
