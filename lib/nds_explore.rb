@@ -9,8 +9,6 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-new_array = []
-
 row_index = 0
 column_index = 0
 
@@ -20,9 +18,9 @@ inner_index = 0
 while inner_index < inner_len do
 
     string = directors_database[0][0][inner_index][:title]
-    new_array.push(string)
+
+    puts string 
 
     inner_index += 1
   end
-new_array
 end
