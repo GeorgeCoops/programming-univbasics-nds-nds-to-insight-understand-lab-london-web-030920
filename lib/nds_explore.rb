@@ -12,12 +12,10 @@ def print_first_directors_movie_titles
   new_array = []
 
 row_index = 0
-  while inner_index <= directors_database[inner_index].length
-    row_index = 0
-    column_index = 0
-    inner_index = 0
-    inner_len = irectors_database[row_index][column_index].length
-    while inner_index < directors_database[[row_index].length do
+column_index = 0
+inner_index = 0
+inner_len = directors_database[row_index][column_index].length
+    while inner_index < inner_len do
 
       string = directors_database[0][0][inner_index][:title]
       new_array.push(string)
