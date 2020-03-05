@@ -19,7 +19,7 @@ while inner_index < inner_len do
 
     string = directors_database[0][0][inner_index][:title]
 
-    puts string 
+    puts string
 
     inner_index += 1
   end
