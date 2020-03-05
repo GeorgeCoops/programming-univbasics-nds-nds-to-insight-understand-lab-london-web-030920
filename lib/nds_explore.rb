@@ -9,17 +9,18 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  new_array = []
+new_array = []
 
 row_index = 0
 column_index = 0
 inner_index = 0
 inner_len = directors_database[row_index][column_index].length
-    while inner_index < inner_len do
 
-      string = directors_database[0][0][inner_index][:title]
-      new_array.push(string)
+while inner_index < inner_len do
 
-      inner_index += 1
-      end
+    string = directors_database[0][0][inner_index][:title]
+    new_array.push(string)
+
+    inner_index += 1
+  end
 end
