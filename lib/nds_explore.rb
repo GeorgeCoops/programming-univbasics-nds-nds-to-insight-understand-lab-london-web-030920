@@ -22,9 +22,9 @@ row_index = 0
       string = directors_database[0][0][inner_index][:title]
       new_array.push(string)
 
-  
-      
-    
+
+
+
       inner_index = 0
       while inner_index < inner_len do
         puts "\t\t (#{coord}, #{inner_index}) is: #{vm[row_index][column_index][inner_index]}"
