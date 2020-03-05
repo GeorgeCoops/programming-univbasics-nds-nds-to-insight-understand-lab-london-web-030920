@@ -11,7 +11,7 @@ end
 def print_first_directors_movie_titles
   inner_index = 0
   new_array = []
-  while inner_index <= vm[inner_index].length
+  while inner_index <= vm[directors_database].length
     
   end
   string = vending_machine[0][0][index][:title]
